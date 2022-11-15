@@ -1,1 +1,55 @@
 
+body{
+    background-color: purple;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100% ;
+    height: 100%;
+    padding: 65px;
+}
+.container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+    border-radius: 5px;
+    background-color: white;
+
+}
+.nav{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.inner{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+span{
+    margin: 0.5rem;
+}
+img{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
