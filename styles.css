@@ -39,6 +39,9 @@ body{
     align-items: center;
     background-color: white;
 }
+.icons:hover{
+    color: purple;
+}
 .inner{
     border: 2px solid white;
     background-color: white;
